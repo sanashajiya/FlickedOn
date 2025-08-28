@@ -1,4 +1,5 @@
 import 'package:flicked_on/auth/login_screen.dart';
+import 'package:flicked_on/auth/onboarding_screen.dart';
 // import 'package:flicked_on/web_app_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //   colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       // ),
-      home: const LoginScreen()
+      home: const OnboardingScreen()
     );
   }
 }
