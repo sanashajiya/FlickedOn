@@ -1,3 +1,4 @@
+import 'package:flicked_on/auth/forgot_password_request_screen.dart';
 import 'package:flicked_on/auth/register_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -100,7 +101,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 alignment: Alignment.centerRight,
                 child: TextButton(
                   onPressed: () {
-                    // TODO: Navigate to Forgot Password
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=> const ForgotPasswordRequestScreen()));
                   },
                   child: Text(
                     "Forgot Password?",
